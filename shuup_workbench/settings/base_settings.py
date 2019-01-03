@@ -12,7 +12,7 @@ BASE_DIR = os.getenv("SHUUP_WORKBENCH_BASE_DIR") or (
     os.path.dirname(os.path.dirname(__file__)))
 SECRET_KEY = "Shhhhh"
 DEBUG = True
-ALLOWED_HOSTS = ['180.151.225.195']
+ALLOWED_HOSTS = ['180.151.225.195','os009.oodleslab.com']
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "var", "media")
 STATIC_ROOT = os.path.join(BASE_DIR, "var", "static")
