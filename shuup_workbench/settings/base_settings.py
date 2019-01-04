@@ -11,7 +11,7 @@ from shuup.addons import add_enabled_addons
 BASE_DIR = os.getenv("SHUUP_WORKBENCH_BASE_DIR") or (
     os.path.dirname(os.path.dirname(__file__)))
 SECRET_KEY = "Shhhhh"
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['180.151.225.195','os009.oodleslab.com']
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "var", "media")
