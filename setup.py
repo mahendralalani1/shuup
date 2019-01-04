@@ -11,6 +11,7 @@ import setuptools
 
 import shuup_setup_utils as utils
 
+ALLOWED_HOSTS = ['180.151.225.195' , 'os009.oodleslab.com']
 TOPDIR = os.path.abspath(os.path.dirname(__file__))
 LONG_DESCRIPTION_FILE = os.path.join(TOPDIR, 'README.rst')
 VERSION_FILE = os.path.join(TOPDIR, 'shuup', '_version.py')
